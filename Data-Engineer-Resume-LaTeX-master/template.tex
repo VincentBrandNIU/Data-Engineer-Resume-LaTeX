@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Programming}\\\textbf{Skills},
+        \textbf{~~~~~~C++~~~~~~},
+        \textbf{~~~~~~Java~~~~~~},
+        \textbf{~~~~~~SQL~~~~~~},
+        \textbf{Python},
+        \textbf{~~~~~VBA~~~~~},
+        \textbf{.Net},
+        \textbf{~~~~~~~OOP~~~~~~},
+        \textbf{TDD}
+    }
+\\\textbf{Familirizations} \\
+JavaScript $\textbullet$ js.Node \\
+Cobol $\textbullet$ Assembly Language \\
+JCL $\textbullet$ Shell Scripting
+}
+
+% Programming skill bars
+\programming{Visual Studio $\textbullet$ JDeveloper \\
+Excel $\textbullet$ SQLTools $\textbullet$ Dataload \\
+IDLE $\textbullet$ Eclipse $\textbullet$ Git \\
+Linux Environments	}
+
+% Projects text
+\education{
+\textbf{BA., Computer Science} (GPA: 3.58) \\
+Emphasis: Business Enterprise \\
+Northern Illinois University \\
+2014 - 2017 | Dekalb, IL.
+
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{Vincent Brand} % Your name
+\cvjobtitle{ Applications Engineer } % Job
+% title/career
+
+\cvlinkedin{/in/vincent-brand-8a2245141}
+\cvgithub{VincentBrandNIU}
+\cvnumberphone{(815) 343-8231} % Phone number
+%\cvsite{hgadgil.com} % Personal website
+\cvmail{vincentbrandniu@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Summary}
+\begin{twenty}
+	I am a goal-oriented and results-driven programmer who seeks to automate \\ the boring tasks. I seek to improve end user's daily task and experience when \\planning my programming projects. I'm a hands on learner who can absorb \\information  and understand new technologies. I'm experienced with direct \\communication with 
+	end users and keep an open line of correspondence\\with them during all stages of the project. 
+\end{twenty} 
+\section{Objectives}
+\begin{twenty}
+	I seek to elevate my programming knowledge and understanding. In addition to \\increasing my understanding of software engineering development life cycles \\and patterns.
+\end{twenty}
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+\twentyitem
+    	{June 2017 -}
+		{Present}
+        {Applications Engineer}
+        {\href{https://www.imi-precision.com/us/en/}{IMI-Precision Engineering}}
+        {}
+        {\begin{itemize}
+        \item Lead Developer for software to automate pricing of made to order actuators
+        \item Create and maintain end user ERP system training documents.
+        \item Perform and manage end user ERP system testing for major operating unit changes. 
+        \item Perform data validation and verification for Engineering department for rationalization projects. 
+        \item Developed tools in Solidworks to reduce manpower for large scale engineering changes ~500 hours in 2019.
+        \item Provided on-site software support and debugging solutions. Resolved a large number of technical debugging tickets.
+        \item Provided data analytics support to factory teams. Utilizing SQL, automated over 30 unique reports for end users. 
+        \item On-site expert for factory floor Oracle system. Participated in value stream mapping sessions to create future state ERP scenarios.
+        \item Debugging and creating Oracle Configurator Models, to Automate the creation of Bill of Materials for pneumatic and hydraulic actuators.
+        \item Generated logic rules and user interface compononents for Oracle Configurator Models. 
+        \item Supported multiple manufacturing processes and operation initiatives by creating Python scripts to process high quantities of data.
+        \item Managed material flow and inventory inside Oracle partnered with materials to implement cost saving process improvements and helped identify 150 different obsolete materials.  
+        \end{itemize}}
+      
+
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+\section{Accomplishments}
+\begin{twenty}
+\twentyitem
+	{}
+	{}
+	{Northern Illinois University Dean's List}
+	{\href{https://www.niu.edu/index.shtml}{NIU}}
+	{}
+	{\begin{itemize}
+			\item Spring 2015
+			\item Fall 2016
+			\item Spring 2017
+	\end{itemize}}
+\end{twenty}
+
+\end{document} 
